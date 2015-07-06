@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav.navbar.navbar-default {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  padding-left: 0;
+  font-size: 2em;
+  width: 100%;
+}
+
+.navbar-brand .lead {
+  margin-left: 0.2em;
+  font-size: 0.6em;
+}
+
+#wrap {
+  border:1px solid #ccc;
+  width: 100%;
+  min-height:254px !important;
+  margin: 0;
+  position: relative;
+}
+
+.results {
+  display: none;
+}
+
+.postcodes {
+  font-size: 1.6em;
+  color: #aaa;
+}
+
+#address {
+  font-size: 1.8em;
+}
+
+.footer {
+  color: #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #ccc;
+  margin-top: 2em;
+}
+
